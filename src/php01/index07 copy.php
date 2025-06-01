@@ -1,18 +1,18 @@
 <?php
 
-function getSquareArea($base, $height)
+function getSquare($base, $height)
 {
     return $base * $height;
 }
-function getTriangleArea($base, $height)
+function getTriangle($base, $height)
 {
     return $base * $height / 2;
 }
-function getTrapezoidArea($upperBase, $lowerBase, $height)
+function getTrapezoid($upperBase, $lowerBase, $height)
 {
     return ($upperBase + $lowerBase) * $height / 2;
 }
 
-echo getSquareArea(5, 5) . "\n";
-echo getTriangleArea(7, 8) . "\n";
-echo getTrapezoidArea(4, 5, 4);
+echo getSquare(5, 5) . "\n";
+echo getTriangle(7, 8) . "\n";
+echo getTrapezoid(4, 5, 4);
